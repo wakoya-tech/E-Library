@@ -5,8 +5,7 @@ import StarRating from './star-rating';
 function App() {
   return (
     <div>
-      
-      <StarRating noOfStars={10}/>
+      <RandomColor />
     </div>
   );
 }
