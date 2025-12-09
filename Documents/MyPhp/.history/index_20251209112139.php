@@ -44,7 +44,7 @@ echo "the division of x/y is :{$div}<br>";
 echo $x % $y;
 */
 $counter = 10;
-$counter += 50;
+$counter--;
 echo $counter;
 ?>
 
