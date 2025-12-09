@@ -23,6 +23,6 @@ $price = 5.99;
 $quantity = $_POST["quantity"];
 $total = null;
 $total = $quantity * $price;
-echo "You have ordered {$quantity}*{$item} <br>";
-echo "Your total is: \${$total}";
+echo "You have ordered {$quantity}*{$item}";
+echo "Your total is: \${&total}";
 ?>

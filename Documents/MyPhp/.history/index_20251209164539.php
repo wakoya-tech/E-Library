@@ -20,9 +20,5 @@
 <?php
 $item = "pizza";
 $price = 5.99;
-$quantity = $_POST["quantity"];
-$total = null;
-$total = $quantity * $price;
-echo "You have ordered {$quantity}*{$item} <br>";
-echo "Your total is: \${$total}";
+$_POST["quantity"];
 ?>
