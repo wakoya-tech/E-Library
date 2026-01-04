@@ -12,7 +12,6 @@
     <input type="text" value="y"><br>
     <input type="submit" value="total">
 </body>
-
 </html>
 <?php
 
