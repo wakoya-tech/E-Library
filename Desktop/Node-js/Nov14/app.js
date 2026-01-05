@@ -2,7 +2,6 @@
 const os = require('os');
 let totalMemo= os.totalmem();
 let memo=os.freemem();
-
 console.log("total Memory in GB",((totalMemo)/(1024*1024*1024)));
 console.log("free Memory in GB",((memo)/(1024*1024*1024)));
 console.log("used memory in GB",((totalMemo-memo)/(1024*1024*1024)));
