@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+    
     <label>X</label>
     <input type="text" value="x"><br>
     <label>Y</label>
