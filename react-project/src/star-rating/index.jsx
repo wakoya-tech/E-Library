@@ -14,7 +14,6 @@ export default function StarRating({ noOfStars = 5 }) {
           console.log(getCurrentIndex);
           setRating(getCurrentIndex);
         }
-
         function handleMouseEnter(getCurrentId) {
           console.log(getCurrentId);
           setHover(getCurrentId);
