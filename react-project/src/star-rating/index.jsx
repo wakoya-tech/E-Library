@@ -10,7 +10,6 @@ export default function StarRating({ noOfStars = 5 }) {
     <div className="star-rating">
       {[...Array(noOfStars)].map((_, index) => {
         const currentIndex = index + 1;
-
         function handleClick(getCurrentIndex) {
           console.log(getCurrentIndex);
           setRating(getCurrentIndex);
